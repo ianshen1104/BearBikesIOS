@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E6F7BD624371815006E86A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F7BD524371815006E86A4 /* AppDelegate.swift */; };
+		0E6F7BD824371815006E86A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F7BD724371815006E86A4 /* SceneDelegate.swift */; };
+		0E6F7BDA24371815006E86A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F7BD924371815006E86A4 /* ViewController.swift */; };
+		0E6F7BDD24371815006E86A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E6F7BDB24371815006E86A4 /* Main.storyboard */; };
+		0E6F7BDF24371817006E86A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E6F7BDE24371817006E86A4 /* Assets.xcassets */; };
+		0E6F7BE224371817006E86A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E6F7BE024371817006E86A4 /* LaunchScreen.storyboard */; };
+		0E6F7BED24371817006E86A4 /* Bear_BikesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F7BEC24371817006E86A4 /* Bear_BikesTests.swift */; };
+		0E6F7BF824371817006E86A4 /* Bear_BikesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F7BF724371817006E86A4 /* Bear_BikesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E6F7BE924371817006E86A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E6F7BCA24371815006E86A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E6F7BD124371815006E86A4;
+			remoteInfo = "Bear Bikes";
+		};
+		0E6F7BF424371817006E86A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E6F7BCA24371815006E86A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E6F7BD124371815006E86A4;
+			remoteInfo = "Bear Bikes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E6F7BD224371815006E86A4 /* Bear Bikes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bear Bikes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6F7BD524371815006E86A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E6F7BD724371815006E86A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0E6F7BD924371815006E86A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0E6F7BDC24371815006E86A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E6F7BDE24371817006E86A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E6F7BE124371817006E86A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E6F7BE324371817006E86A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E6F7BE824371817006E86A4 /* Bear BikesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bear BikesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6F7BEC24371817006E86A4 /* Bear_BikesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bear_BikesTests.swift; sourceTree = "<group>"; };
+		0E6F7BEE24371817006E86A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E6F7BF324371817006E86A4 /* Bear BikesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bear BikesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6F7BF724371817006E86A4 /* Bear_BikesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bear_BikesUITests.swift; sourceTree = "<group>"; };
+		0E6F7BF924371817006E86A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E6F7BCF24371815006E86A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6F7BE524371817006E86A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6F7BF024371817006E86A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E6F7BC924371815006E86A4 = {
+			isa = PBXGroup;
+			children = (
+				0E6F7BD424371815006E86A4 /* Bear Bikes */,
+				0E6F7BEB24371817006E86A4 /* Bear BikesTests */,
+				0E6F7BF624371817006E86A4 /* Bear BikesUITests */,
+				0E6F7BD324371815006E86A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E6F7BD324371815006E86A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E6F7BD224371815006E86A4 /* Bear Bikes.app */,
+				0E6F7BE824371817006E86A4 /* Bear BikesTests.xctest */,
+				0E6F7BF324371817006E86A4 /* Bear BikesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E6F7BD424371815006E86A4 /* Bear Bikes */ = {
+			isa = PBXGroup;
+			children = (
+				0E6F7BD524371815006E86A4 /* AppDelegate.swift */,
+				0E6F7BD724371815006E86A4 /* SceneDelegate.swift */,
+				0E6F7BD924371815006E86A4 /* ViewController.swift */,
+				0E6F7BDB24371815006E86A4 /* Main.storyboard */,
+				0E6F7BDE24371817006E86A4 /* Assets.xcassets */,
+				0E6F7BE024371817006E86A4 /* LaunchScreen.storyboard */,
+				0E6F7BE324371817006E86A4 /* Info.plist */,
+			);
+			path = "Bear Bikes";
+			sourceTree = "<group>";
+		};
+		0E6F7BEB24371817006E86A4 /* Bear BikesTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E6F7BEC24371817006E86A4 /* Bear_BikesTests.swift */,
+				0E6F7BEE24371817006E86A4 /* Info.plist */,
+			);
+			path = "Bear BikesTests";
+			sourceTree = "<group>";
+		};
+		0E6F7BF624371817006E86A4 /* Bear BikesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E6F7BF724371817006E86A4 /* Bear_BikesUITests.swift */,
+				0E6F7BF924371817006E86A4 /* Info.plist */,
+			);
+			path = "Bear BikesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E6F7BD124371815006E86A4 /* Bear Bikes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E6F7BFC24371817006E86A4 /* Build configuration list for PBXNativeTarget "Bear Bikes" */;
+			buildPhases = (
+				0E6F7BCE24371815006E86A4 /* Sources */,
+				0E6F7BCF24371815006E86A4 /* Frameworks */,
+				0E6F7BD024371815006E86A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bear Bikes";
+			productName = "Bear Bikes";
+			productReference = 0E6F7BD224371815006E86A4 /* Bear Bikes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E6F7BE724371817006E86A4 /* Bear BikesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E6F7BFF24371817006E86A4 /* Build configuration list for PBXNativeTarget "Bear BikesTests" */;
+			buildPhases = (
+				0E6F7BE424371817006E86A4 /* Sources */,
+				0E6F7BE524371817006E86A4 /* Frameworks */,
+				0E6F7BE624371817006E86A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E6F7BEA24371817006E86A4 /* PBXTargetDependency */,
+			);
+			name = "Bear BikesTests";
+			productName = "Bear BikesTests";
+			productReference = 0E6F7BE824371817006E86A4 /* Bear BikesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E6F7BF224371817006E86A4 /* Bear BikesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E6F7C0224371817006E86A4 /* Build configuration list for PBXNativeTarget "Bear BikesUITests" */;
+			buildPhases = (
+				0E6F7BEF24371817006E86A4 /* Sources */,
+				0E6F7BF024371817006E86A4 /* Frameworks */,
+				0E6F7BF124371817006E86A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E6F7BF524371817006E86A4 /* PBXTargetDependency */,
+			);
+			name = "Bear BikesUITests";
+			productName = "Bear BikesUITests";
+			productReference = 0E6F7BF324371817006E86A4 /* Bear BikesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E6F7BCA24371815006E86A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Bear Bikes Team";
+				TargetAttributes = {
+					0E6F7BD124371815006E86A4 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					0E6F7BE724371817006E86A4 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 0E6F7BD124371815006E86A4;
+					};
+					0E6F7BF224371817006E86A4 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 0E6F7BD124371815006E86A4;
+					};
+				};
+			};
+			buildConfigurationList = 0E6F7BCD24371815006E86A4 /* Build configuration list for PBXProject "Bear Bikes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E6F7BC924371815006E86A4;
+			productRefGroup = 0E6F7BD324371815006E86A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E6F7BD124371815006E86A4 /* Bear Bikes */,
+				0E6F7BE724371817006E86A4 /* Bear BikesTests */,
+				0E6F7BF224371817006E86A4 /* Bear BikesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E6F7BD024371815006E86A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6F7BE224371817006E86A4 /* LaunchScreen.storyboard in Resources */,
+				0E6F7BDF24371817006E86A4 /* Assets.xcassets in Resources */,
+				0E6F7BDD24371815006E86A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6F7BE624371817006E86A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6F7BF124371817006E86A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E6F7BCE24371815006E86A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6F7BDA24371815006E86A4 /* ViewController.swift in Sources */,
+				0E6F7BD624371815006E86A4 /* AppDelegate.swift in Sources */,
+				0E6F7BD824371815006E86A4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6F7BE424371817006E86A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6F7BED24371817006E86A4 /* Bear_BikesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6F7BEF24371817006E86A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6F7BF824371817006E86A4 /* Bear_BikesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E6F7BEA24371817006E86A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E6F7BD124371815006E86A4 /* Bear Bikes */;
+			targetProxy = 0E6F7BE924371817006E86A4 /* PBXContainerItemProxy */;
+		};
+		0E6F7BF524371817006E86A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E6F7BD124371815006E86A4 /* Bear Bikes */;
+			targetProxy = 0E6F7BF424371817006E86A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E6F7BDB24371815006E86A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E6F7BDC24371815006E86A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E6F7BE024371817006E86A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E6F7BE124371817006E86A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E6F7BFA24371817006E86A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E6F7BFB24371817006E86A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E6F7BFD24371817006E86A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N44CSX4BB2;
+				INFOPLIST_FILE = "Bear Bikes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MDB.Bear-Bikes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E6F7BFE24371817006E86A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N44CSX4BB2;
+				INFOPLIST_FILE = "Bear Bikes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MDB.Bear-Bikes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0E6F7C0024371817006E86A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N44CSX4BB2;
+				INFOPLIST_FILE = "Bear BikesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MDB.Bear-BikesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bear Bikes.app/Bear Bikes";
+			};
+			name = Debug;
+		};
+		0E6F7C0124371817006E86A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N44CSX4BB2;
+				INFOPLIST_FILE = "Bear BikesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MDB.Bear-BikesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bear Bikes.app/Bear Bikes";
+			};
+			name = Release;
+		};
+		0E6F7C0324371817006E86A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N44CSX4BB2;
+				INFOPLIST_FILE = "Bear BikesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MDB.Bear-BikesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bear Bikes";
+			};
+			name = Debug;
+		};
+		0E6F7C0424371817006E86A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N44CSX4BB2;
+				INFOPLIST_FILE = "Bear BikesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MDB.Bear-BikesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bear Bikes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E6F7BCD24371815006E86A4 /* Build configuration list for PBXProject "Bear Bikes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6F7BFA24371817006E86A4 /* Debug */,
+				0E6F7BFB24371817006E86A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E6F7BFC24371817006E86A4 /* Build configuration list for PBXNativeTarget "Bear Bikes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6F7BFD24371817006E86A4 /* Debug */,
+				0E6F7BFE24371817006E86A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E6F7BFF24371817006E86A4 /* Build configuration list for PBXNativeTarget "Bear BikesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6F7C0024371817006E86A4 /* Debug */,
+				0E6F7C0124371817006E86A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E6F7C0224371817006E86A4 /* Build configuration list for PBXNativeTarget "Bear BikesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6F7C0324371817006E86A4 /* Debug */,
+				0E6F7C0424371817006E86A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E6F7BCA24371815006E86A4 /* Project object */;
+}
