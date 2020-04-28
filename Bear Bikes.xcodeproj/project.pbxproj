@@ -16,6 +16,9 @@
 		0E6F7BE224371817006E86A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E6F7BE024371817006E86A4 /* LaunchScreen.storyboard */; };
 		0E6F7BED24371817006E86A4 /* Bear_BikesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F7BEC24371817006E86A4 /* Bear_BikesTests.swift */; };
 		0E6F7BF824371817006E86A4 /* Bear_BikesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F7BF724371817006E86A4 /* Bear_BikesUITests.swift */; };
+		0EFC795C2457B580008D7B48 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFC795B2457B580008D7B48 /* MapVC.swift */; };
+		0EFC795E2457B6E2008D7B48 /* MapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFC795D2457B6E2008D7B48 /* MapPin.swift */; };
+		0EFC79602457B713008D7B48 /* Bike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFC795F2457B713008D7B48 /* Bike.swift */; };
 		434B2C93B4FDDF42A6720112 /* Pods_Bear_Bikes_Bear_BikesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE6C908DCE09F0ED08C1324 /* Pods_Bear_Bikes_Bear_BikesUITests.framework */; };
 		EBF61490056A5FFB1ED1134D /* Pods_Bear_Bikes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0AC353FEC1BE522CA4EDE7 /* Pods_Bear_Bikes.framework */; };
 /* End PBXBuildFile section */
@@ -53,6 +56,9 @@
 		0E6F7BF324371817006E86A4 /* Bear BikesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bear BikesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E6F7BF724371817006E86A4 /* Bear_BikesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bear_BikesUITests.swift; sourceTree = "<group>"; };
 		0E6F7BF924371817006E86A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EFC795B2457B580008D7B48 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		0EFC795D2457B6E2008D7B48 /* MapPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPin.swift; sourceTree = "<group>"; };
+		0EFC795F2457B713008D7B48 /* Bike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bike.swift; sourceTree = "<group>"; };
 		1D0AC353FEC1BE522CA4EDE7 /* Pods_Bear_Bikes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bear_Bikes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		318351E8601748992EA78B4B /* Pods-Bear Bikes-Bear BikesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bear Bikes-Bear BikesUITests.release.xcconfig"; path = "Target Support Files/Pods-Bear Bikes-Bear BikesUITests/Pods-Bear Bikes-Bear BikesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		53F5E8A0FE89C9321C50A959 /* Pods-Bear BikesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bear BikesTests.release.xcconfig"; path = "Target Support Files/Pods-Bear BikesTests/Pods-Bear BikesTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +112,7 @@
 			children = (
 				0E6BC2BA24540900003F9FFD /* Barcode */,
 				0E6BC2BB24540907003F9FFD /* Map */,
+				0EFC795F2457B713008D7B48 /* Bike.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -158,6 +165,7 @@
 		0E6BC2B8245408D8003F9FFD /* Map */ = {
 			isa = PBXGroup;
 			children = (
+				0EFC795B2457B580008D7B48 /* MapVC.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -180,6 +188,7 @@
 		0E6BC2BB24540907003F9FFD /* Map */ = {
 			isa = PBXGroup;
 			children = (
+				0EFC795D2457B6E2008D7B48 /* MapPin.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -523,7 +532,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EFC795E2457B6E2008D7B48 /* MapPin.swift in Sources */,
 				0E6F7BDA24371815006E86A4 /* BarcodeVC.swift in Sources */,
+				0EFC79602457B713008D7B48 /* Bike.swift in Sources */,
+				0EFC795C2457B580008D7B48 /* MapVC.swift in Sources */,
 				0E6F7BD624371815006E86A4 /* AppDelegate.swift in Sources */,
 				0E6F7BD824371815006E86A4 /* SceneDelegate.swift in Sources */,
 			);
