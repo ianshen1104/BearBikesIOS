@@ -6,9 +6,9 @@ target 'Bear Bikes' do
   use_frameworks!
 
   # Pods for Bear Bikes
-  pod 'GoogleMaps'
-  pod 'GooglePlaces'
-  pod 'Firebase/Database'
+#  pod 'GoogleMaps'
+#  pod 'GooglePlaces'
+#  pod 'Firebase/Database'
 
   target 'Bear BikesTests' do
     inherit! :search_paths

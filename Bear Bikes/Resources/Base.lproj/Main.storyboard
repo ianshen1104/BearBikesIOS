@@ -7,35 +7,64 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--MapVC-->
+        <!--Map-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MapVC" customModule="Bear_Bikes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="zj7-JY-Lwv">
-                                <rect key="frame" x="0.0" y="44" width="414" height="808"/>
-                            </mapView>
-                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="zj7-JY-Lwv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="F7O-9b-CfE"/>
-                            <constraint firstItem="zj7-JY-Lwv" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-44" id="Lt9-ce-TYA"/>
-                            <constraint firstItem="zj7-JY-Lwv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="moW-Kx-TKv"/>
-                            <constraint firstItem="zj7-JY-Lwv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="tSb-62-8r7"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="oDD-vv-jvf"/>
+                    <navigationItem key="navigationItem" title="Map" id="oDD-vv-jvf"/>
                     <connections>
-                        <outlet property="map" destination="zj7-JY-Lwv" id="cVM-FX-VnR"/>
+                        <segue destination="E84-rN-h1p" kind="show" identifier="toBarcodeVC" id="S14-AG-Cir"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="126.5625"/>
+        </scene>
+        <!--Barcode-->
+        <scene sceneID="w1W-hO-END">
+            <objects>
+                <viewController id="E84-rN-h1p" customClass="BarcodeVC" customModule="Bear_Bikes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tim-y9-rxR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fcG-lf-RN5">
+                                <rect key="frame" x="20" y="145" width="374" height="468"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gsf-a0-nOb">
+                                <rect key="frame" x="101" y="45" width="212" height="119"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="fcG-lf-RN5" firstAttribute="leading" secondItem="tim-y9-rxR" secondAttribute="leadingMargin" id="Abi-fo-c04"/>
+                            <constraint firstItem="fcG-lf-RN5" firstAttribute="top" secondItem="Sls-kN-a5X" secondAttribute="top" constant="100" id="Byo-Kq-Kpu"/>
+                            <constraint firstItem="fcG-lf-RN5" firstAttribute="leading" secondItem="tim-y9-rxR" secondAttribute="leadingMargin" id="GK0-IH-pXP"/>
+                            <constraint firstItem="fcG-lf-RN5" firstAttribute="trailing" secondItem="tim-y9-rxR" secondAttribute="trailingMargin" id="YEr-vb-3gY"/>
+                            <constraint firstItem="fcG-lf-RN5" firstAttribute="leading" secondItem="Sls-kN-a5X" secondAttribute="leading" id="acN-VE-DTQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Sls-kN-a5X"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Barcode" id="5ga-mC-gVV"/>
+                    <connections>
+                        <outlet property="lblOutput" destination="Gsf-a0-nOb" id="rtz-uz-Yyg"/>
+                        <outlet property="previewView" destination="fcG-lf-RN5" id="yGV-OO-2Np"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tck-Vd-tcu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1731.8840579710147" y="135.9375"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="KS3-sB-5AD">

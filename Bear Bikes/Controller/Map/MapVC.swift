@@ -12,11 +12,17 @@ import MapKit
 class MapVC: UIViewController {
 
     @IBOutlet weak var map: MKMapView!
+
+   
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.performSegue(withIdentifier: "toBarcodeVC", sender: self)
+                
     }
-
+    
 
 }

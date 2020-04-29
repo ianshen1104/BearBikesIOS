@@ -3,14 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		04CBC37E314D5A52302C2874 /* Pods_Bear_BikesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C68599195ADC68A7FC15EE /* Pods_Bear_BikesTests.framework */; };
 		0E6F7BD624371815006E86A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F7BD524371815006E86A4 /* AppDelegate.swift */; };
 		0E6F7BD824371815006E86A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F7BD724371815006E86A4 /* SceneDelegate.swift */; };
-		0E6F7BDA24371815006E86A4 /* BarcodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F7BD924371815006E86A4 /* BarcodeVC.swift */; };
 		0E6F7BDD24371815006E86A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E6F7BDB24371815006E86A4 /* Main.storyboard */; };
 		0E6F7BDF24371817006E86A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E6F7BDE24371817006E86A4 /* Assets.xcassets */; };
 		0E6F7BE224371817006E86A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E6F7BE024371817006E86A4 /* LaunchScreen.storyboard */; };
@@ -20,7 +19,9 @@
 		0EFC795E2457B6E2008D7B48 /* MapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFC795D2457B6E2008D7B48 /* MapPin.swift */; };
 		0EFC79602457B713008D7B48 /* Bike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFC795F2457B713008D7B48 /* Bike.swift */; };
 		434B2C93B4FDDF42A6720112 /* Pods_Bear_Bikes_Bear_BikesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE6C908DCE09F0ED08C1324 /* Pods_Bear_Bikes_Bear_BikesUITests.framework */; };
-		EBF61490056A5FFB1ED1134D /* Pods_Bear_Bikes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0AC353FEC1BE522CA4EDE7 /* Pods_Bear_Bikes.framework */; };
+		F865C8FD24594012004E5C6B /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = F865C8FC24594012004E5C6B /* square.png */; };
+		F865C90124594B73004E5C6B /* Pods_Bear_Bikes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0AC353FEC1BE522CA4EDE7 /* Pods_Bear_Bikes.framework */; };
+		F8689D1E2459625100637590 /* BarcodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8689D1D2459625100637590 /* BarcodeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +46,6 @@
 		0E6F7BD224371815006E86A4 /* Bear Bikes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bear Bikes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E6F7BD524371815006E86A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E6F7BD724371815006E86A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0E6F7BD924371815006E86A4 /* BarcodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeVC.swift; sourceTree = "<group>"; };
 		0E6F7BDC24371815006E86A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E6F7BDE24371817006E86A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E6F7BE124371817006E86A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -67,6 +67,9 @@
 		63AA74D0C13D2384292D1895 /* Pods-Bear Bikes-Bear BikesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bear Bikes-Bear BikesUITests.debug.xcconfig"; path = "Target Support Files/Pods-Bear Bikes-Bear BikesUITests/Pods-Bear Bikes-Bear BikesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7BE6C908DCE09F0ED08C1324 /* Pods_Bear_Bikes_Bear_BikesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bear_Bikes_Bear_BikesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A5B6733C71865D755B73B4 /* Pods-Bear Bikes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bear Bikes.release.xcconfig"; path = "Target Support Files/Pods-Bear Bikes/Pods-Bear Bikes.release.xcconfig"; sourceTree = "<group>"; };
+		F865C8FC24594012004E5C6B /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
+		F8689CEB245956BA00637590 /* QRCodeReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = QRCodeReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8689D1D2459625100637590 /* BarcodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBF61490056A5FFB1ED1134D /* Pods_Bear_Bikes.framework in Frameworks */,
+				F865C90124594B73004E5C6B /* Pods_Bear_Bikes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +103,7 @@
 		0C4374853A98C4E42DC450D9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F8689CEB245956BA00637590 /* QRCodeReader.framework */,
 				1D0AC353FEC1BE522CA4EDE7 /* Pods_Bear_Bikes.framework */,
 				7BE6C908DCE09F0ED08C1324 /* Pods_Bear_Bikes_Bear_BikesUITests.framework */,
 				54C68599195ADC68A7FC15EE /* Pods_Bear_BikesTests.framework */,
@@ -143,6 +147,7 @@
 				0E6F7BDB24371815006E86A4 /* Main.storyboard */,
 				0E6F7BE024371817006E86A4 /* LaunchScreen.storyboard */,
 				0E6F7BDE24371817006E86A4 /* Assets.xcassets */,
+				F865C8FC24594012004E5C6B /* square.png */,
 				0E6F7BE324371817006E86A4 /* Info.plist */,
 			);
 			path = Resources;
@@ -173,7 +178,7 @@
 		0E6BC2B9245408E1003F9FFD /* Barcode */ = {
 			isa = PBXGroup;
 			children = (
-				0E6F7BD924371815006E86A4 /* BarcodeVC.swift */,
+				F8689D1D2459625100637590 /* BarcodeVC.swift */,
 			);
 			path = Barcode;
 			sourceTree = "<group>";
@@ -268,8 +273,6 @@
 				0E6F7BCE24371815006E86A4 /* Sources */,
 				0E6F7BCF24371815006E86A4 /* Frameworks */,
 				0E6F7BD024371815006E86A4 /* Resources */,
-				10AD0D8513E545417EA09043 /* [CP] Embed Pods Frameworks */,
-				5CBAAE9BBE7596BC3E11C7CD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -307,8 +310,6 @@
 				0E6F7BEF24371817006E86A4 /* Sources */,
 				0E6F7BF024371817006E86A4 /* Frameworks */,
 				0E6F7BF124371817006E86A4 /* Resources */,
-				A37336B93BBA34622D6C0313 /* [CP] Embed Pods Frameworks */,
-				AD7B9CC77FB234D1882222A8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -370,6 +371,7 @@
 			files = (
 				0E6F7BE224371817006E86A4 /* LaunchScreen.storyboard in Resources */,
 				0E6F7BDF24371817006E86A4 /* Assets.xcassets in Resources */,
+				F865C8FD24594012004E5C6B /* square.png in Resources */,
 				0E6F7BDD24371815006E86A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,40 +393,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		10AD0D8513E545417EA09043 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Bear Bikes/Pods-Bear Bikes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Bear Bikes/Pods-Bear Bikes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bear Bikes/Pods-Bear Bikes-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5CBAAE9BBE7596BC3E11C7CD /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Bear Bikes/Pods-Bear Bikes-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Bear Bikes/Pods-Bear Bikes-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bear Bikes/Pods-Bear Bikes-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		90159F33115C64F7ED27456E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -445,40 +413,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A37336B93BBA34622D6C0313 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Bear Bikes-Bear BikesUITests/Pods-Bear Bikes-Bear BikesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Bear Bikes-Bear BikesUITests/Pods-Bear Bikes-Bear BikesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bear Bikes-Bear BikesUITests/Pods-Bear Bikes-Bear BikesUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AD7B9CC77FB234D1882222A8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Bear Bikes-Bear BikesUITests/Pods-Bear Bikes-Bear BikesUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Bear Bikes-Bear BikesUITests/Pods-Bear Bikes-Bear BikesUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bear Bikes-Bear BikesUITests/Pods-Bear Bikes-Bear BikesUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CFD85BDD90877632E202D977 /* [CP] Check Pods Manifest.lock */ = {
@@ -533,7 +467,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EFC795E2457B6E2008D7B48 /* MapPin.swift in Sources */,
-				0E6F7BDA24371815006E86A4 /* BarcodeVC.swift in Sources */,
+				F8689D1E2459625100637590 /* BarcodeVC.swift in Sources */,
 				0EFC79602457B713008D7B48 /* Bike.swift in Sources */,
 				0EFC795C2457B580008D7B48 /* MapVC.swift in Sources */,
 				0E6F7BD624371815006E86A4 /* AppDelegate.swift in Sources */,
@@ -711,15 +645,17 @@
 			baseConfigurationReference = 614ED6391715DD6508309104 /* Pods-Bear Bikes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N44CSX4BB2;
-				INFOPLIST_FILE = "Bear Bikes/Info.plist";
+				DEVELOPMENT_TEAM = 85MY6P28H8;
+				INFOPLIST_FILE = "Bear Bikes/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "MDB.Bear-Bikes";
+				PRODUCT_BUNDLE_IDENTIFIER = "MDB-Bear-Bikes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -730,15 +666,17 @@
 			baseConfigurationReference = 93A5B6733C71865D755B73B4 /* Pods-Bear Bikes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N44CSX4BB2;
-				INFOPLIST_FILE = "Bear Bikes/Info.plist";
+				DEVELOPMENT_TEAM = 85MY6P28H8;
+				INFOPLIST_FILE = "Bear Bikes/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "MDB.Bear-Bikes";
+				PRODUCT_BUNDLE_IDENTIFIER = "MDB-Bear-Bikes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
