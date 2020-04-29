@@ -3,11 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		04CBC37E314D5A52302C2874 /* Pods_Bear_BikesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C68599195ADC68A7FC15EE /* Pods_Bear_BikesTests.framework */; };
+		0E51C90A2459D92C00A2E2F2 /* BikeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E51C9092459D92C00A2E2F2 /* BikeManager.swift */; };
+		0E51C90C2459D97E00A2E2F2 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E51C90B2459D97E00A2E2F2 /* AppManager.swift */; };
+		0E51C90E2459E67700A2E2F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E51C90D2459E67700A2E2F2 /* GoogleService-Info.plist */; };
+		0E51C90F2459E67700A2E2F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E51C90D2459E67700A2E2F2 /* GoogleService-Info.plist */; };
+		0E51C9102459E67700A2E2F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E51C90D2459E67700A2E2F2 /* GoogleService-Info.plist */; };
 		0E6F7BD624371815006E86A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F7BD524371815006E86A4 /* AppDelegate.swift */; };
 		0E6F7BD824371815006E86A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F7BD724371815006E86A4 /* SceneDelegate.swift */; };
 		0E6F7BDD24371815006E86A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E6F7BDB24371815006E86A4 /* Main.storyboard */; };
@@ -16,7 +21,6 @@
 		0E6F7BED24371817006E86A4 /* Bear_BikesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F7BEC24371817006E86A4 /* Bear_BikesTests.swift */; };
 		0E6F7BF824371817006E86A4 /* Bear_BikesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F7BF724371817006E86A4 /* Bear_BikesUITests.swift */; };
 		0EFC795C2457B580008D7B48 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFC795B2457B580008D7B48 /* MapVC.swift */; };
-		0EFC795E2457B6E2008D7B48 /* MapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFC795D2457B6E2008D7B48 /* MapPin.swift */; };
 		0EFC79602457B713008D7B48 /* Bike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFC795F2457B713008D7B48 /* Bike.swift */; };
 		434B2C93B4FDDF42A6720112 /* Pods_Bear_Bikes_Bear_BikesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE6C908DCE09F0ED08C1324 /* Pods_Bear_Bikes_Bear_BikesUITests.framework */; };
 		F865C8FD24594012004E5C6B /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = F865C8FC24594012004E5C6B /* square.png */; };
@@ -43,6 +47,9 @@
 
 /* Begin PBXFileReference section */
 		0DD1F3F513E2A7DF8DCA2790 /* Pods-Bear BikesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bear BikesTests.debug.xcconfig"; path = "Target Support Files/Pods-Bear BikesTests/Pods-Bear BikesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E51C9092459D92C00A2E2F2 /* BikeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeManager.swift; sourceTree = "<group>"; };
+		0E51C90B2459D97E00A2E2F2 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		0E51C90D2459E67700A2E2F2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0E6F7BD224371815006E86A4 /* Bear Bikes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bear Bikes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E6F7BD524371815006E86A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E6F7BD724371815006E86A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,7 +64,6 @@
 		0E6F7BF724371817006E86A4 /* Bear_BikesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bear_BikesUITests.swift; sourceTree = "<group>"; };
 		0E6F7BF924371817006E86A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EFC795B2457B580008D7B48 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
-		0EFC795D2457B6E2008D7B48 /* MapPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPin.swift; sourceTree = "<group>"; };
 		0EFC795F2457B713008D7B48 /* Bike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bike.swift; sourceTree = "<group>"; };
 		1D0AC353FEC1BE522CA4EDE7 /* Pods_Bear_Bikes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bear_Bikes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		318351E8601748992EA78B4B /* Pods-Bear Bikes-Bear BikesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bear Bikes-Bear BikesUITests.release.xcconfig"; path = "Target Support Files/Pods-Bear Bikes-Bear BikesUITests/Pods-Bear Bikes-Bear BikesUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,8 +120,8 @@
 		0E6BC2B22454081E003F9FFD /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0E6BC2BA24540900003F9FFD /* Barcode */,
-				0E6BC2BB24540907003F9FFD /* Map */,
+				0E51C90B2459D97E00A2E2F2 /* AppManager.swift */,
+				0E51C9092459D92C00A2E2F2 /* BikeManager.swift */,
 				0EFC795F2457B713008D7B48 /* Bike.swift */,
 			);
 			path = Model;
@@ -124,8 +130,8 @@
 		0E6BC2B324540830003F9FFD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				0E6BC2B9245408E1003F9FFD /* Barcode */,
-				0E6BC2B8245408D8003F9FFD /* Map */,
+				F8689D1D2459625100637590 /* BarcodeVC.swift */,
+				0EFC795B2457B580008D7B48 /* MapVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -133,8 +139,6 @@
 		0E6BC2B424540839003F9FFD /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0E6BC2B7245408C1003F9FFD /* Barcode */,
-				0E6BC2B6245408B8003F9FFD /* Map */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -149,53 +153,9 @@
 				0E6F7BDE24371817006E86A4 /* Assets.xcassets */,
 				F865C8FC24594012004E5C6B /* square.png */,
 				0E6F7BE324371817006E86A4 /* Info.plist */,
+				0E51C90D2459E67700A2E2F2 /* GoogleService-Info.plist */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		0E6BC2B6245408B8003F9FFD /* Map */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Map;
-			sourceTree = "<group>";
-		};
-		0E6BC2B7245408C1003F9FFD /* Barcode */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Barcode;
-			sourceTree = "<group>";
-		};
-		0E6BC2B8245408D8003F9FFD /* Map */ = {
-			isa = PBXGroup;
-			children = (
-				0EFC795B2457B580008D7B48 /* MapVC.swift */,
-			);
-			path = Map;
-			sourceTree = "<group>";
-		};
-		0E6BC2B9245408E1003F9FFD /* Barcode */ = {
-			isa = PBXGroup;
-			children = (
-				F8689D1D2459625100637590 /* BarcodeVC.swift */,
-			);
-			path = Barcode;
-			sourceTree = "<group>";
-		};
-		0E6BC2BA24540900003F9FFD /* Barcode */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Barcode;
-			sourceTree = "<group>";
-		};
-		0E6BC2BB24540907003F9FFD /* Map */ = {
-			isa = PBXGroup;
-			children = (
-				0EFC795D2457B6E2008D7B48 /* MapPin.swift */,
-			);
-			path = Map;
 			sourceTree = "<group>";
 		};
 		0E6F7BC924371815006E86A4 = {
@@ -273,6 +233,8 @@
 				0E6F7BCE24371815006E86A4 /* Sources */,
 				0E6F7BCF24371815006E86A4 /* Frameworks */,
 				0E6F7BD024371815006E86A4 /* Resources */,
+				FA53BC7756D155066CB95DDA /* [CP] Embed Pods Frameworks */,
+				81090AEF07486C10198C0B31 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -310,6 +272,8 @@
 				0E6F7BEF24371817006E86A4 /* Sources */,
 				0E6F7BF024371817006E86A4 /* Frameworks */,
 				0E6F7BF124371817006E86A4 /* Resources */,
+				16518F1B9396DFD90FC79AE0 /* [CP] Embed Pods Frameworks */,
+				49527917285CF722A5AD5E24 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -371,6 +335,7 @@
 			files = (
 				0E6F7BE224371817006E86A4 /* LaunchScreen.storyboard in Resources */,
 				0E6F7BDF24371817006E86A4 /* Assets.xcassets in Resources */,
+				0E51C90E2459E67700A2E2F2 /* GoogleService-Info.plist in Resources */,
 				F865C8FD24594012004E5C6B /* square.png in Resources */,
 				0E6F7BDD24371815006E86A4 /* Main.storyboard in Resources */,
 			);
@@ -380,6 +345,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E51C90F2459E67700A2E2F2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,12 +353,64 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E51C9102459E67700A2E2F2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		16518F1B9396DFD90FC79AE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bear Bikes-Bear BikesUITests/Pods-Bear Bikes-Bear BikesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bear Bikes-Bear BikesUITests/Pods-Bear Bikes-Bear BikesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bear Bikes-Bear BikesUITests/Pods-Bear Bikes-Bear BikesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49527917285CF722A5AD5E24 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bear Bikes-Bear BikesUITests/Pods-Bear Bikes-Bear BikesUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bear Bikes-Bear BikesUITests/Pods-Bear Bikes-Bear BikesUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bear Bikes-Bear BikesUITests/Pods-Bear Bikes-Bear BikesUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81090AEF07486C10198C0B31 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bear Bikes/Pods-Bear Bikes-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bear Bikes/Pods-Bear Bikes-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bear Bikes/Pods-Bear Bikes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		90159F33115C64F7ED27456E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -459,6 +477,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FA53BC7756D155066CB95DDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bear Bikes/Pods-Bear Bikes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bear Bikes/Pods-Bear Bikes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bear Bikes/Pods-Bear Bikes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -466,12 +501,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EFC795E2457B6E2008D7B48 /* MapPin.swift in Sources */,
 				F8689D1E2459625100637590 /* BarcodeVC.swift in Sources */,
 				0EFC79602457B713008D7B48 /* Bike.swift in Sources */,
 				0EFC795C2457B580008D7B48 /* MapVC.swift in Sources */,
+				0E51C90A2459D92C00A2E2F2 /* BikeManager.swift in Sources */,
 				0E6F7BD624371815006E86A4 /* AppDelegate.swift in Sources */,
 				0E6F7BD824371815006E86A4 /* SceneDelegate.swift in Sources */,
+				0E51C90C2459D97E00A2E2F2 /* AppManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

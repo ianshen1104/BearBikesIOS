@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>55734871775-7h6e20ieuov5t8i7j7bj69rqved1m9dl.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.55734871775-7h6e20ieuov5t8i7j7bj69rqved1m9dl</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>55734871775-6oqvo2nsl9cellijmu1n1ni9uo1ml837.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCH7R5ZixYwJkg2r6OYSvuDIPo12Qn8tr4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>55734871775</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>MDB-Bear-Bikes</string>
+	<key>PROJECT_ID</key>
+	<string>bear-bikes</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bear-bikes.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:55734871775:ios:143d2c06331ddc842e6b6a</string>
+	<key>DATABASE_URL</key>
+	<string>https://bear-bikes.firebaseio.com</string>
+</dict>
+</plist>
