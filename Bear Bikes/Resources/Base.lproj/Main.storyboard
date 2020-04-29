@@ -17,7 +17,18 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Map" id="oDD-vv-jvf"/>
+                    <navigationItem key="navigationItem" title="Map" id="oDD-vv-jvf">
+                        <barButtonItem key="rightBarButtonItem" title="Barcode" style="plain" id="0W2-j2-Fe5">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="OVR-KB-MyO" userLabel="Barcode">
+                                <rect key="frame" x="302" y="7" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Barcode"/>
+                                <connections>
+                                    <action selector="barcodePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZAP-IZ-ago"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <segue destination="E84-rN-h1p" kind="show" identifier="toBarcodeVC" id="S14-AG-Cir"/>
                     </connections>
@@ -35,7 +46,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fcG-lf-RN5">
-                                <rect key="frame" x="20" y="145" width="374" height="468"/>
+                                <rect key="frame" x="0.0" y="145" width="394" height="468"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gsf-a0-nOb">

@@ -7,13 +7,26 @@
 //
 
 import Foundation
+import Firebase
+import UIKit
 
-//Class for Bike object
-class Bike {
+class Bike: Equatable{
+
+    var color: String
+    var id: String
+    var latitude: Double
+    var longitude: Double
+    var origin: String
     
-//    var owner: String
-//    var available: Bool
-//    var longitude: Double
-//    var latitude: Double
+    init(color: String, id: String, latitude: Double, longitude: Double, origin: String) {
+        self.color = color
+        self.id = id
+        self.latitude = latitude
+        self.longitude = longitude
+        self.origin = origin
+    }
     
+    static func == (lhs: Bike, rhs: Bike) -> Bool {
+        return lhs.id == rhs.id
+    }
 }
