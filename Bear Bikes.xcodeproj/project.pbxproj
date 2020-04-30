@@ -20,6 +20,7 @@
 		0E6F7BE224371817006E86A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E6F7BE024371817006E86A4 /* LaunchScreen.storyboard */; };
 		0E6F7BED24371817006E86A4 /* Bear_BikesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F7BEC24371817006E86A4 /* Bear_BikesTests.swift */; };
 		0E6F7BF824371817006E86A4 /* Bear_BikesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F7BF724371817006E86A4 /* Bear_BikesUITests.swift */; };
+		0EAF7508245AECB9000580CA /* MapMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF7507245AECB9000580CA /* MapMarkerView.swift */; };
 		0EFC795C2457B580008D7B48 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFC795B2457B580008D7B48 /* MapVC.swift */; };
 		0EFC79602457B713008D7B48 /* Bike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFC795F2457B713008D7B48 /* Bike.swift */; };
 		434B2C93B4FDDF42A6720112 /* Pods_Bear_Bikes_Bear_BikesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE6C908DCE09F0ED08C1324 /* Pods_Bear_Bikes_Bear_BikesUITests.framework */; };
@@ -63,6 +64,7 @@
 		0E6F7BF324371817006E86A4 /* Bear BikesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bear BikesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E6F7BF724371817006E86A4 /* Bear_BikesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bear_BikesUITests.swift; sourceTree = "<group>"; };
 		0E6F7BF924371817006E86A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EAF7507245AECB9000580CA /* MapMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMarkerView.swift; sourceTree = "<group>"; };
 		0EFC795B2457B580008D7B48 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		0EFC795F2457B713008D7B48 /* Bike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bike.swift; sourceTree = "<group>"; };
 		1D0AC353FEC1BE522CA4EDE7 /* Pods_Bear_Bikes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bear_Bikes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,6 +141,7 @@
 		0E6BC2B424540839003F9FFD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0EAF7507245AECB9000580CA /* MapMarkerView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -502,6 +505,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8689D1E2459625100637590 /* BarcodeVC.swift in Sources */,
+				0EAF7508245AECB9000580CA /* MapMarkerView.swift in Sources */,
 				0EFC79602457B713008D7B48 /* Bike.swift in Sources */,
 				0EFC795C2457B580008D7B48 /* MapVC.swift in Sources */,
 				0E51C90A2459D92C00A2E2F2 /* BikeManager.swift in Sources */,
