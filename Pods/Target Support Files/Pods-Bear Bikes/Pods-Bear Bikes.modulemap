@@ -1,6 +1,0 @@
-framework module Pods_Bear_Bikes {
-  umbrella header "Pods-Bear Bikes-umbrella.h"
-
-  export *
-  module * { export * }
-}
